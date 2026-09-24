@@ -13,10 +13,10 @@
 
 export const siteData = {
   // ── Business identity ────────────────────────────────────────────────────
-  name: 'Small Business Starter',
+  name: 'HAPE SEO Agency',
   tagline: 'Professional service you can trust.',
   description:
-    'A fast, mobile-first small-business website template built with Astro 7 and Tailwind v4. Fully customisable for any trade or service business.',
+    'Elevate your online presence with HAPE SEO Agency's professional SEO services. Drive traffic, enhance visibility, and achieve your business goals today.',
   url: 'https://example.com',
   locale: 'en_US',
 
@@ -35,11 +35,11 @@ export const siteData = {
     state: 'CO',
     zip: '80206',
     country: 'US',
-    mapLink: 'https://maps.app.goo.gl/example',
+    mapLink: 'https://maps.app.goo.gl/ZGXLhT7pmPaKWiJ48',
   },
   hours: [
-    { days: 'Monday - Friday', time: '7:00 AM - 6:00 PM' },
-    { days: 'Saturday', time: '8:00 AM - 2:00 PM' },
+    { days: 'Monday - Friday', time: '9:00 AM - 9:00 PM' },
+    { days: 'Saturday', time: '9:00 AM - 2:00 PM' },
     { days: 'Sunday', time: 'Closed' },
   ],
   emergencyService: '24/7 Emergency Service Available',
@@ -64,20 +64,18 @@ export const siteData = {
   // ── Services ─────────────────────────────────────────────────────────────
   services: [
     {
-      title: 'General Repairs',
+      title: 'SEO',
       description:
-        'From leaky faucets to broken drywall, our team handles everyday repairs quickly and professionally. We diagnose the issue, explain your options, and get it fixed — no surprises on the bill.',
+        'Enhance your website's visibility with expert SEO strategies. Discover effective techniques to boost rankings and drive organic traffic today.},
+    {
+      title: 'Digital Marketing',
+      description:
+        'Discover effective digital marketing strategies to elevate your brand. Learn about SEO, social media, and content marketing to drive engagement and growth.',
     },
     {
-      title: 'Installations',
+      title: 'WEB Development',
       description:
-        'New fixtures, appliances, water heaters, ceiling fans, and more. We ensure every installation is up to code, properly tested, and backed by our workmanship guarantee.',
-    },
-    {
-      title: 'Inspections',
-      description:
-        'Comprehensive property inspections for homebuyers, sellers, and proactive homeowners. We identify potential issues before they become expensive emergencies.',
-    },
+        'Discover expert web development services that elevate your online presence. From design to deployment, we create tailored solutions for your business needs.},
     {
       title: 'Remodeling',
       description:
